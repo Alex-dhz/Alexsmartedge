@@ -3,114 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Informática</title>
+    <title>Huawei Mate X - Noticias y Reseñas</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f7f7f7;
         }
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #20232a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #61dafb;
             padding: 10px 0;
             text-align: center;
         }
-        nav {
-            background-color: #444;
-            overflow: hidden;
-        }
         nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
+            margin: 0 15px;
+            color: black;
             text-decoration: none;
+            font-weight: bold;
         }
         nav a:hover {
-            background-color: #555;
+            color: #20232a;
+        }
+        .hero {
+            background-image: url('https://example.com/huawei-mate-x.jpg'); /* Cambia el enlace de la imagen */
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h2 {
+            font-size: 3em;
         }
         section {
             padding: 20px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .card {
             background-color: white;
+            margin: 20px auto;
+            max-width: 1000px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 10px;
-            padding: 20px;
-            width: 300px;
         }
-        .card h3 {
-            margin-top: 0;
+        h2, h3 {
+            color: #20232a;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .article-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
         }
         footer {
-            background-color: #333;
+            background-color: #20232a;
             color: white;
             text-align: center;
             padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Bienvenidos a la Página de Informática</h1>
+        <h1>Noticias y Reseñas de Tecnología</h1>
     </header>
 
     <nav>
         <a href="#">Inicio</a>
-        <a href="#temas">Temas de Informática</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#">Noticias</a>
+        <a href="#">Huawei</a>
+        <a href="#">Contacto</a>
     </nav>
 
+    <div class="hero">
+        <h2>Huawei Mate X: Innovación en Smartphones Plegables</h2>
+    </div>
+
     <section>
-        <h2>Introducción</h2>
-        <p>La informática es una ciencia que se encarga del estudio, desarrollo y uso de los sistemas y tecnologías de la información. En esta página exploraremos algunos temas clave en el mundo de la informática.</p>
-    </section>
+        <h2>Huawei Mate X: El Futuro de los Teléfonos Plegables</h2>
+        <p>El Huawei Mate X es un teléfono revolucionario que redefine lo que significa ser un smartphone plegable. Con su impresionante pantalla flexible y un diseño elegante, el Mate X ofrece una experiencia completamente nueva en el mundo de la tecnología móvil.</p>
+        
+        <img src="https://example.com/huawei-mate-x-article.jpg" alt="Huawei Mate X" class="article-image"> <!-- Cambia el enlace de la imagen -->
 
-    <section id="temas">
-        <h2>Temas de Informática</h2>
-        <div class="content">
-            <div class="card">
-                <h3>Programación</h3>
-                <p>Aprende sobre los lenguajes de programación más utilizados como Python, Java, C++, y más. La programación es el pilar del desarrollo de software.</p>
-            </div>
-            <div class="card">
-                <h3>Seguridad Informática</h3>
-                <p>Explora cómo proteger sistemas y redes de ataques, y la importancia de la ciberseguridad en el mundo moderno.</p>
-            </div>
-            <div class="card">
-                <h3>Inteligencia Artificial</h3>
-                <p>Descubre cómo las máquinas pueden aprender y resolver problemas complejos utilizando algoritmos de IA.</p>
-            </div>
-            <div class="card">
-                <h3>Redes de Computadoras</h3>
-                <p>Las redes son fundamentales para la comunicación entre sistemas. Aprende cómo se diseñan y mantienen redes informáticas.</p>
-            </div>
-        </div>
-    </section>
+        <h3>Características Destacadas</h3>
+        <ul>
+            <li>Pantalla plegable de 8 pulgadas cuando está completamente abierta.</li>
+            <li>Conectividad 5G para velocidades ultrarrápidas.</li>
+            <li>Cámara cuádruple con sensores de alta calidad.</li>
+            <li>Batería de larga duración con carga rápida de 55W.</li>
+        </ul>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Si deseas obtener más información, puedes escribirnos a <a href="mailto:info@informatica.com">info@informatica.com</a>.</p>
+        <p>El Huawei Mate X es el pionero de una nueva generación de smartphones, ofreciendo una experiencia flexible sin comprometer el rendimiento o la calidad. Su diseño innovador y la tecnología de vanguardia lo convierten en una opción ideal para aquellos que buscan lo último en tecnología.</p>
+
+        <h3>Opiniones y Reseñas</h3>
+        <p>Los expertos coinciden en que el Mate X es uno de los mejores smartphones plegables disponibles en el mercado. Su pantalla, durabilidad, y rendimiento son muy apreciados por los usuarios y profesionales de la tecnología.</p>
     </section>
 
     <footer>
-        <p>&copy; 2024 Página de Informática. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Noticias de Tecnología. Todos los derechos reservados.</p>
     </footer>
 
 </body>
