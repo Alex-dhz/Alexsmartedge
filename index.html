@@ -3,10 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página Web</title>
+    <title>Página de Informática</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>¡Hola, Mundo!</h1>
-    <p>Esta es mi primera página web en GitHub Pages.</p>
+
+    <header>
+        <h1>Bienvenidos a la Página de Informática</h1>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#temas">Temas de Informática</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section>
+        <h2>Introducción</h2>
+        <p>La informática es una ciencia que se encarga del estudio, desarrollo y uso de los sistemas y tecnologías de la información. En esta página exploraremos algunos temas clave en el mundo de la informática.</p>
+    </section>
+
+    <section id="temas">
+        <h2>Temas de Informática</h2>
+        <div class="content">
+            <div class="card">
+                <h3>Programación</h3>
+                <p>Aprende sobre los lenguajes de programación más utilizados como Python, Java, C++, y más. La programación es el pilar del desarrollo de software.</p>
+            </div>
+            <div class="card">
+                <h3>Seguridad Informática</h3>
+                <p>Explora cómo proteger sistemas y redes de ataques, y la importancia de la ciberseguridad en el mundo moderno.</p>
+            </div>
+            <div class="card">
+                <h3>Inteligencia Artificial</h3>
+                <p>Descubre cómo las máquinas pueden aprender y resolver problemas complejos utilizando algoritmos de IA.</p>
+            </div>
+            <div class="card">
+                <h3>Redes de Computadoras</h3>
+                <p>Las redes son fundamentales para la comunicación entre sistemas. Aprende cómo se diseñan y mantienen redes informáticas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas obtener más información, puedes escribirnos a <a href="mailto:info@informatica.com">info@informatica.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Página de Informática. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
